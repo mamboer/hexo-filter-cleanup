@@ -18,7 +18,7 @@ All in one. Minifier & Optimization plugin for [Hexo](https://hexo.io).
 $ npm install hexo-filter-cleanup --save
 ```
 
-## Components
+## Features
 
 Integrate all the official minifier plugins of HEXO and some other optimization plugins:
 
@@ -27,13 +27,14 @@ Integrate all the official minifier plugins of HEXO and some other optimization 
 - [hexo-uglify](https://github.com/hexojs/hexo-uglify), which is based on [UglifyJS](http://lisperator.net/uglifyjs/)
 - [hexo-imagemin](https://github.com/vseventer/hexo-imagemin), which is based on [imagemin](https://github.com/imagemin/imagemin)
 - [useref](https://www.npmjs.com/package/useref), let hexo parse build blocks in html files.
+- [favicons](https://github.com/haydenbleasel/favicons), generate favicons on the fly.
 
 Thanks for their works.
 
 ## Options
 
 ``` yaml
-html_useref:
+hfc_useref:
   enable: true
   concat: true
   exclude: 
@@ -45,7 +46,7 @@ html_useref:
 ----------
 
 ``` yaml
-html_minifier:
+hfc_html:
   enable: true
   exclude: 
 ```
@@ -55,7 +56,7 @@ html_minifier:
 ----------
 
 ``` yaml
-css_minifier:
+hfc_css:
   enable: true
   exclude: 
     - '*.min.css'
@@ -66,7 +67,7 @@ css_minifier:
 ----------
 
 ``` yaml
-js_minifier:
+hfc_js:
   enable: true
   mangle: true
   output:
@@ -83,7 +84,7 @@ js_minifier:
 ----------
 
 ```yaml
-image_minifier:
+hfc_img:
   enable: true
   interlaced: false
   multipass: false
@@ -106,6 +107,21 @@ image_minifier:
 - **pngquant** - Enable [imagemin-pngquant](https://github.com/imagemin/imagemin-pngquant) plugin. Defaults to `false`.
 - **progressive** - Lossless conversion to progressive. Defaults to `false`.
 
-
+```yaml
+hfc_favicons:
+  enable: true
+  src: img/logo.png
+  target: img/
+  icons:
+    android: true
+    appleIcon: true
+    appleStartup: false
+    coast: false
+    favicons: true
+    firefox: false
+    opengraph: false
+    windows: true
+    yandex: false
+```
 
 Todo: Tests
