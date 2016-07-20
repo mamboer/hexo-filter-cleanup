@@ -64,16 +64,13 @@ const assign = require('object-assign');
         }, hexo.config.image_minifier);
 
 
-        let filter = require('./lib/filter');
-
-        hexo.extend.filter.register('after_render:html', filter.userefHTML);
-
-        hexo.extend.filter.register('after_render:html', filter.optimizeHTML);
+        let filter = require('./lib');
 
         hexo.extend.filter.register('after_render:css', filter.optimizeCSS);
-
         hexo.extend.filter.register('after_render:js', filter.optimizeJS);
-
         hexo.extend.filter.register('after_generate', filter.optimizeImage);
+        hexo.extend.filter.register('after_generate', filter.userefHTML);
+        hexo.extend.filter.register('after_generate', filter.optimizeHTML);
+
     }
 //}
