@@ -26,13 +26,13 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.4.1",
-    "clean-css": "^3.4.18",
-    "favicons": "^4.7.1",
-    "html-minifier": "^3.0.1",
+    "clean-css": "^3.4.19",
+    "favicons": "^4.7.3",
+    "html-minifier": "^3.0.2",
     "imagemin": "^5.2.2",
     "imagemin-gifsicle": "^5.1.0",
     "imagemin-jpegtran": "^5.0.2",
-    "imagemin-optipng": "^5.1.1",
+    "imagemin-optipng": "^5.2.0",
     "imagemin-pngquant": "^5.0.0",
     "imagemin-svgo": "^5.1.0",
     "imagemin-webp": "^4.0.0",
@@ -54,7 +54,7 @@
     "hexo-generator-tag": "^0.2.0",
     "chai": "^3.5.0",
     "minimist": "^1.2.0",
-    "mocha": "^2.5.3",
+    "mocha": "^3.0.2",
     "path": "^0.12.7"
   }
 }
