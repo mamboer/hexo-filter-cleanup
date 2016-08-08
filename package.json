@@ -1,6 +1,6 @@
 {
   "name": "hexo-filter-cleanup",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Bunble cleanup, including minifying HTML, CSS, JS and Image files, and do `useref` on HTML files.",
   "main": "index",
   "scripts": {
