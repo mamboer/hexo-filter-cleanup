@@ -1,6 +1,6 @@
 {
   "name": "hexo-filter-cleanup",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Bunble cleanup, including minifying HTML, CSS, JS and Image files, and do `useref` on HTML files.",
   "main": "index",
   "scripts": {
@@ -27,7 +27,7 @@
   "dependencies": {
     "bluebird": "^3.4.1",
     "clean-css": "^3.4.19",
-    "favicons": "^4.7.3",
+    "favicons": "^4.7.5",
     "html-minifier": "^3.0.2",
     "imagemin": "^5.2.2",
     "imagemin-gifsicle": "^5.1.0",
@@ -41,7 +41,7 @@
     "minimatch": "^3.0.3",
     "object-assign": "^4.1.0",
     "stream-to-array": "^2.3.0",
-    "uglify-js": "~2.7.0",
+    "uglify-js": "~2.7.1",
     "useref": "^1.2.0"
   },
   "devDependencies": {
