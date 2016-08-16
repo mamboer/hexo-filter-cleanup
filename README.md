@@ -124,4 +124,14 @@ hfc_favicons:
     yandex: false
 ```
 
+## Debug Mode
+
+The debug mode will disable all the optimizations.
+
+You can active the debug mode by using hexo's `--debug` switch as below.
+
+```
+hexo s --watch --debug
+```
+
 Todo: Tests
