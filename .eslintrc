@@ -1,0 +1,9 @@
+---
+"extends":
+  - "defaults"
+"globals":
+  "hexo": true
+  "App": true
+  "Util": true
+"env":
+  "node": true
