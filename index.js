@@ -48,6 +48,7 @@ const assign = require('object-assign');
         // Image minifier
         hexo.config.hfc_img = assign({
             enable: true,
+            exclude: [],
             interlaced: false,
             multipass: false,
             optimizationLevel: 3,
