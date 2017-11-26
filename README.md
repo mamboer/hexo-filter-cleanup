@@ -1,7 +1,9 @@
 # Hexo-filter-cleanup
 
-[![npm version](https://badge.fury.io/js/hexo-filter-cleanup.svg)](https://badge.fury.io/js/hexo-filter-cleanup)
-[![NPM Dependencies](https://david-dm.org/mamboer/hexo-filter-cleanup.svg)](https://www.npmjs.com/package/hexo-filter-cleanup)
+[![npm version](https://badge.fury.io/js/hexo-filter-cleanup.svg)](https://www.npmjs.com/package/hexo-filter-cleanup)
+[![NPM Dependencies](https://david-dm.org/mamboer/hexo-filter-cleanup.svg)](https://david-dm.org/mamboer/hexo-filter-cleanup)
+[![NPM DevDependencies](https://david-dm.org/mamboer/hexo-filter-cleanup/dev-status.svg)](https://david-dm.org/mamboer/hexo-filter-cleanup?type=dev)
+
 
 > This project is inspired by [hexo-all-minifier](https://github.com/unhealthy/hexo-all-minifier).
 
