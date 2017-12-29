@@ -36,12 +36,12 @@
     "imagemin-optipng": "^5.2.1",
     "imagemin-pngquant": "^5.0.1",
     "imagemin-svgo": "^6.0.0",
-    "imagemin-webp": "^4.0.0",
+    "imagemin-webp": "^4.1.0",
     "md5-file": "^3.2.3",
     "minimatch": "^3.0.4",
     "object-assign": "^4.1.1",
     "stream-to-array": "^2.3.0",
-    "uglify-js": "~3.3.2",
+    "uglify-js": "~3.3.3",
     "useref": "^1.4.0"
   },
   "devDependencies": {
@@ -57,7 +57,7 @@
     "hexo-renderer-marked": "^0.3.0",
     "hexo-renderer-stylus": "^0.3.3",
     "minimist": "^1.2.0",
-    "mocha": "^4.0.1",
+    "mocha": "^4.1.0",
     "path": "^0.12.7"
   }
 }
