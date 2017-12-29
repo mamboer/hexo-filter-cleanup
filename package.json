@@ -4,7 +4,7 @@
   "description": "Bunble cleanup, including minifying HTML, CSS, JS and Image files, and do `useref` on HTML files.",
   "main": "index",
   "scripts": {
-    "test": ""
+    "eslint": "eslint ."
   },
   "directories": {
     "lib": "./lib"
@@ -47,7 +47,6 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "eslint": "^4.14.0",
-    "eslint-config-defaults": "^9.0.0",
     "hexo": "^3.4.4",
     "hexo-generator-archive": "^0.1.5",
     "hexo-generator-category": "^0.1.3",
