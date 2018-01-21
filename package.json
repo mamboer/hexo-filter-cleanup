@@ -41,12 +41,12 @@
     "minimatch": "^3.0.4",
     "object-assign": "^4.1.1",
     "stream-to-array": "^2.3.0",
-    "uglify-js": "~3.3.6",
+    "uglify-js": "~3.3.8",
     "useref": "^1.4.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "eslint": "^4.15.0",
+    "eslint": "^4.16.0",
     "hexo": "^3.4.4",
     "hexo-generator-archive": "^0.1.5",
     "hexo-generator-category": "^0.1.3",
@@ -56,7 +56,7 @@
     "hexo-renderer-marked": "^0.3.2",
     "hexo-renderer-stylus": "^0.3.3",
     "minimist": "^1.2.0",
-    "mocha": "^4.1.0",
+    "mocha": "^5.0.0",
     "path": "^0.12.7"
   }
 }
