@@ -28,7 +28,7 @@
     "bluebird": "^3.5.1",
     "clean-css": "^4.1.9",
     "favicons": "^4.8.6",
-    "html-minifier": "^3.5.8",
+    "html-minifier": "^3.5.9",
     "imagemin": "^5.3.1",
     "imagemin-gifsicle": "^5.2.0",
     "imagemin-jpeg-recompress": "^5.1.0",
@@ -41,12 +41,12 @@
     "minimatch": "^3.0.4",
     "object-assign": "^4.1.1",
     "stream-to-array": "^2.3.0",
-    "uglify-js": "~3.3.8",
+    "uglify-js": "~3.3.10",
     "useref": "^1.4.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "eslint": "^4.16.0",
+    "eslint": "^4.17.0",
     "hexo": "^3.5.0",
     "hexo-generator-archive": "^0.1.5",
     "hexo-generator-category": "^0.1.3",
