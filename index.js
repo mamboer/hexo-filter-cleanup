@@ -41,9 +41,7 @@ const assign = require('object-assign');
             output: {},
             compress: {},
             exclude: ['*.min.js']
-        }, hexo.config.hfc_js, {
-                fromString: true
-            });
+        }, hexo.config.hfc_js, {});
 
         // Image minifier
         hexo.config.hfc_img = assign({
