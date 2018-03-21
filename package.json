@@ -1,20 +1,23 @@
 {
   "name": "hexo-filter-cleanup",
-  "version": "1.0.8",
+  "version": "0.0.0-development",
   "description": "Bunble cleanup, including minifying HTML, CSS, JS and Image files, and do `useref` on HTML files.",
   "main": "index",
   "scripts": {
-    "test": ""
+    "eslint": "eslint .",
+    "semantic-release": "semantic-release",
+    "semantic-release-test": "semantic-release --dry-run --no-ci -e ./release-local.config.js",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "directories": {
     "lib": "./lib"
   },
   "engines": {
-    "node": ">= 4.0.0"
+    "node": ">= 8"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:mamboer/hexo-filter-cleanup.git"
+    "url": "https://github.com/mamboer/hexo-filter-cleanup.git"
   },
   "keywords": [
     "hexo",
@@ -47,7 +50,6 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "eslint": "^4.19.0",
-    "eslint-config-defaults": "^9.0.0",
     "hexo": "^3.6.0",
     "hexo-generator-archive": "^0.1.5",
     "hexo-generator-category": "^0.1.3",
@@ -58,6 +60,8 @@
     "hexo-renderer-stylus": "^0.3.3",
     "minimist": "^1.2.0",
     "mocha": "^5.0.4",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "semantic-release": "^15.1.3",
+    "travis-deploy-once": "^4.4.1"
   }
 }
