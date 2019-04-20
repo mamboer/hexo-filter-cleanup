@@ -6,8 +6,7 @@
   "scripts": {
     "eslint": "eslint .",
     "semantic-release": "semantic-release",
-    "semantic-release-test": "semantic-release --dry-run --no-ci -e ./release-local.config.js",
-    "travis-deploy-once": "travis-deploy-once"
+    "semantic-release-test": "semantic-release --dry-run --no-ci -e ./release-local.config.js"
   },
   "directories": {
     "lib": "./lib"
@@ -62,7 +61,6 @@
     "minimist": "^1.2.0",
     "mocha": "^6.1.4",
     "path": "^0.12.7",
-    "semantic-release": "^15.13.3",
-    "travis-deploy-once": "^5.0.11"
+    "semantic-release": "^15.13.3"
   }
 }

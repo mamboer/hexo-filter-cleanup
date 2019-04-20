@@ -5,16 +5,19 @@ cache:
 notifications:
   email: false
 node_js:
-  - '8'
+  - '10'
   - 'node'
-script:
- - >
-  yarn
-  npm run eslint
-after_script:
-  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
-after_success:
-  - npm run travis-deploy-once "npm run semantic-release"
+jobs:
+  include:
+    - stage: lint
+      script: 'npm run eslint'
+    - state: release
+      node_js: 10
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - npx semantic-release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
