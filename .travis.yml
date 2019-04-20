@@ -7,13 +7,12 @@ notifications:
 node_js:
   - '10'
   - 'node'
+script: echo 'skipping test'
 jobs:
   include:
-    - stage: test
-      script: echo 'skipping test'
     - stage: lint
       script: 'npm run eslint'
-    - state: release
+    - stage: release
       node_js: 10
       deploy:
         provider: script
