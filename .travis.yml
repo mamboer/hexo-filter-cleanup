@@ -9,8 +9,7 @@ node_js:
   - 'node'
 script:
  - >
-  node install
-
+  yarn
   npm run eslint
 after_script:
   - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
