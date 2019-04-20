@@ -66,7 +66,10 @@ const assign = require('object-assign');
         hexo.config.hfc_favicons = assign({
             enable: true,
             src: 'img/logo.png',
+            html: true,
             target:'img/',
+            // extra favicons configs
+            opts: false,
             icons: {
                 // Create Android homescreen icon. `boolean`
                 android: true,              
@@ -94,7 +97,7 @@ const assign = require('object-assign');
 
         hexo.extend.filter.register('after_render:css', filter.optimizeCSS);
         hexo.extend.filter.register('after_render:js', filter.optimizeJS);
-        hexo.extend.filter.register('after_generate', filter.genFavicons);
+        hexo.extend.filter.register('before_generate', filter.genFavicons);
         hexo.extend.filter.register('after_generate', filter.optimizeImage);
         hexo.extend.filter.register('after_generate', filter.userefHTML);
         hexo.extend.filter.register('after_generate', filter.optimizeHTML);

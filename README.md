@@ -19,6 +19,12 @@ All in one. Minifier & Optimization plugin for [Hexo](https://hexo.io).
 $ npm install hexo-filter-cleanup --save
 ```
 
+or with yarn,
+
+```bash
+yarn add hexo-filter-cleanup
+```
+
 ## Features
 
 Integrate all the official minifier plugins of HEXO and some other optimization plugins:
@@ -113,6 +119,8 @@ hfc_favicons:
   enable: true
   src: img/logo.png
   target: img/
+  html: true
+  opts: false
   icons:
     android: true
     appleIcon: true
@@ -124,6 +132,12 @@ hfc_favicons:
     windows: true
     yandex: false
 ```
+- **enable** - Enable the plugin. Defaults to `true`.
+- **src** - Favicon file path.
+- **target** - Where we put the generated files. Defaults to `img` folder.
+- **html** - Whether generate the html data in the `_data` folder for further usage. Defaults to `true`. See [an example](https://github.com/o2team/o2team.github.io/tree/v2/themes/lattice/layout/_partial/common/favicons.swig).
+- **opts** - Extra [favicons configurations](https://github.com/itgalaxy/favicons). Defaults to `false`
+- **icons** - Icons configurations.
 
 ## Debug Mode
 
