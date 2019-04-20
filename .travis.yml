@@ -9,6 +9,8 @@ node_js:
   - 'node'
 jobs:
   include:
+    - stage: test
+      script: echo 'skipping test'
     - stage: lint
       script: 'npm run eslint'
     - state: release
