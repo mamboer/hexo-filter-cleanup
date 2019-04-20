@@ -97,7 +97,7 @@ const assign = require('object-assign');
 
         hexo.extend.filter.register('after_render:css', filter.optimizeCSS);
         hexo.extend.filter.register('after_render:js', filter.optimizeJS);
-        hexo.extend.filter.register('before_generate', filter.genFavicons);
+        hexo.extend.filter.register('after_init', filter.genFavicons);
         hexo.extend.filter.register('after_generate', filter.optimizeImage);
         hexo.extend.filter.register('after_generate', filter.userefHTML);
         hexo.extend.filter.register('after_generate', filter.optimizeHTML);

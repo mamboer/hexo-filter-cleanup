@@ -1,15 +1,23 @@
 # Hexo-filter-cleanup
 
-[![npm version](https://badge.fury.io/js/hexo-filter-cleanup.svg)](https://www.npmjs.com/package/hexo-filter-cleanup)
-[![NPM Dependencies](https://david-dm.org/mamboer/hexo-filter-cleanup.svg)](https://david-dm.org/mamboer/hexo-filter-cleanup)
-[![NPM DevDependencies](https://david-dm.org/mamboer/hexo-filter-cleanup/dev-status.svg)](https://david-dm.org/mamboer/hexo-filter-cleanup?type=dev)
+[![npm version](npm-version-image)](download-url)
+[![NPM Dependencies](npm-dep-image)](npm-dep-url)
+[![NPM DevDependencies](npm-devdep-image)](npm-devdep-url)
+[![npm download][download-image]][download-url]
+
+[npm-version-image]: https://badge.fury.io/js/hexo-filter-cleanup.svg
+[npm-dep-image]: https://david-dm.org/mamboer/hexo-filter-cleanup.svg
+[npm-dep-url]: https://david-dm.org/mamboer/hexo-filter-cleanup
+[npm-devdep-image]: https://david-dm.org/mamboer/hexo-filter-cleanup/dev-status.svg
+[npm-devdep-url]: https://david-dm.org/mamboer/hexo-filter-cleanup?type=dev
+[download-image]: https://img.shields.io/npm/dm/hexo-filter-cleanup.svg?style=flat-square
+[download-url]: https://www.npmjs.com/package/hexo-filter-cleanup
 
 > This project is inspired by [hexo-all-minifier](https://github.com/unhealthy/hexo-all-minifier).
 
 I completely re-wrote this hexo filter plugin because `hexo-all-minifier` has certain issues as below which sucks my hexo project on mac osx platform. Besides that i have added some other cool features like `useref` and `performance` improvements.
 
 - [submodule bug](https://github.com/unhealthy/hexo-all-minifier/issues/12)
-
 
 All in one. Minifier & Optimization plugin for [Hexo](https://hexo.io).
 
