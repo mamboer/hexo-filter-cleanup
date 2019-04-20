@@ -1,8 +1,8 @@
 # Hexo-filter-cleanup
 
-[![npm version](npm-version-image)](download-url)
-[![NPM Dependencies](npm-dep-image)](npm-dep-url)
-[![NPM DevDependencies](npm-devdep-image)](npm-devdep-url)
+[![npm version](npm-version-image)][download-url]
+[![NPM Dependencies](npm-dep-image)][npm-dep-url]
+[![NPM DevDependencies](npm-devdep-image)][npm-devdep-url]
 [![npm download][download-image]][download-url]
 
 [npm-version-image]: https://badge.fury.io/js/hexo-filter-cleanup.svg
