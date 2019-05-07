@@ -4,7 +4,8 @@
 const assign = require('object-assign');
 
 //module.exports = function (hexo) {
-    if(hexo.env.debug === true) return;
+    let hexoCommands = (hexo.env.args && hexo.env.args._) || [];
+    if(hexo.env.debug === true || hexoCommands.includes('clean')) return;
     if (false === hexo.config.hasOwnProperty('filter_cleanup') || true === hexo.config.filter_cleanup) {
 
         // HTML Useref
