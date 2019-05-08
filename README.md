@@ -92,8 +92,8 @@ hfc_js:
 ```
 - **enable** - Enable the plugin. Defaults to `true`.
 - **mangle**: Mangle file names
-- **output**: Output options
-- **compress**: Compress options
+- **output**: Output [options](https://www.npmjs.com/package/uglify-js#output-options), Defaults to `null`
+- **compress**: Compress [options](https://www.npmjs.com/package/uglify-js#compress-options)
 - **exclude**: Exclude files
 
 ----------

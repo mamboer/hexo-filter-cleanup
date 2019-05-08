@@ -39,7 +39,6 @@ const assign = require('object-assign');
         hexo.config.hfc_js = assign({
             enable: true,
             mangle: true,
-            output: {},
             compress: {},
             exclude: ['*.min.js']
         }, hexo.config.hfc_js, {});
