@@ -85,14 +85,12 @@ hfc_css:
 hfc_js:
   enable: true
   mangle: true
-  output:
   compress:
   exclude: 
     - '*.min.js'
 ```
 - **enable** - Enable the plugin. Defaults to `true`.
 - **mangle**: Mangle file names
-- **output**: Output [options](https://www.npmjs.com/package/uglify-js#output-options), Defaults to `null`
 - **compress**: Compress [options](https://www.npmjs.com/package/uglify-js#compress-options)
 - **exclude**: Exclude files
 
