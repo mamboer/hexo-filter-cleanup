@@ -44,6 +44,7 @@
     "minimatch": "^3.0.4",
     "object-assign": "^4.1.1",
     "stream-to-array": "^2.3.0",
+    "uglify-es": "^3.3.9",
     "uglify-js": "~3.5.11",
     "useref": "^1.4.1"
   },
