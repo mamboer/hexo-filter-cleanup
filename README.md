@@ -52,7 +52,7 @@ Thanks for their works.
 hfc_useref:
   enable: true
   concat: true
-  exclude: 
+  exclude:
 ```
 - **enable** - Enable the plugin. Defaults to `true`.
 - **exclude**: Exclude files
@@ -63,7 +63,7 @@ hfc_useref:
 ``` yaml
 hfc_html:
   enable: true
-  exclude: 
+  exclude:
 ```
 - **enable** - Enable the plugin. Defaults to `true`.
 - **exclude**: Exclude files
@@ -73,7 +73,7 @@ hfc_html:
 ``` yaml
 hfc_css:
   enable: true
-  exclude: 
+  exclude:
     - '*.min.css'
 ```
 - **enable** - Enable the plugin. Defaults to `true`.
@@ -85,8 +85,10 @@ hfc_css:
 hfc_js:
   enable: true
   mangle: true
+  # engine chooser
+  engine: "uglify-js" # uglify-es
   compress:
-  exclude: 
+  exclude:
     - '*.min.js'
 ```
 - **enable** - Enable the plugin. Defaults to `true`.
