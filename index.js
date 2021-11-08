@@ -5,6 +5,7 @@ const assign = require("object-assign");
 
 // only apply to process with hexo
 if (typeof hexo == "undefined") {
+  //console.log("Hexo is undefined, unload hexo-filter-cleanup");
   return;
 }
 
